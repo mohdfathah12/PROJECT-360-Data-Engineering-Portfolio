@@ -258,7 +258,7 @@ KMeans clustering applied on sales amounts to identify anomalies and unusual tra
 
 ### 👥 Total Sales by Customer
 
-![Total Sales by Customer](images/total_sales_by_customer.png)
+![Total Sales by Customer](Images/Total_sales_by_customers.png)
 
 Highlights high-value customers and customer-level revenue contribution.
 
