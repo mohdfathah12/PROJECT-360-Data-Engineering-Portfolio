@@ -1,6 +1,6 @@
 # DataTrust 360: Enterprise Financial DataOps & Observability Platform
 
-![DataTrust 360 Architecture](https://your-image-link-here.com) 
+![DataTrust 360 Architecture](Images/Arch.png) 
 
 > **"Turning raw financial chaos into audit-ready, AI-enabled insights."**
 
