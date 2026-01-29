@@ -4,12 +4,12 @@
 
 > **"Turning raw financial chaos into audit-ready, AI-enabled insights."**
 
-## 🎯 Executive Summary
+##  Executive Summary
 In the modern financial landscape, data pipelines fail not because of code, but because of a lack of **trust**. **DataTrust 360** is a production-grade Data Engineering platform built on the **Medallion Architecture**. It focuses on **Data Observability**, **Governance**, and **Cost Optimization**, ensuring that every byte of data is validated before it hits the executive dashboard.
 
 ---
 
-## 🏗️ The Architecture (The 5 Pillars)
+##  The Architecture (The 5 Pillars)
 
 ### 1. Ingestion Layer (Metadata-Driven)
 * **Logic:** Generic PySpark loaders driven by `config.json` to handle hundreds of tables dynamically.
@@ -34,7 +34,7 @@ In the modern financial landscape, data pipelines fail not because of code, but 
 
 ---
 
-## 🛠️ The Tech Stack
+##  The Tech Stack
 * **Engine:** Apache Spark (PySpark) & Databricks
 * **Warehouse:** Delta Lake
 * **Transformations:** dbt Core
@@ -45,7 +45,7 @@ In the modern financial landscape, data pipelines fail not because of code, but 
 
 ---
 
-## 📈 Business Value Delivered (Why this matters)
+##  Business Value Delivered (Why this matters)
 * **Zero Garbage Data:** Automated contracts ensure only 100% accurate data reaches the Gold layer.
 * **Cost Efficiency:** Implements `Z-ORDER` and `VACUUM` logic to reduce cloud storage and compute costs by up to 30%.
 * **Speed to Insight:** Scalable metadata-driven design allows adding new data sources in minutes, not days.
@@ -53,7 +53,7 @@ In the modern financial landscape, data pipelines fail not because of code, but 
 
 ---
 
-## 🚀 How to Run this Project
+##  How to Run this Project
 1. Clone the repository.
 2. Setup your Databricks cluster.
 3. Configure `configs/pipeline_config.json`.
