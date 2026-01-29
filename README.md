@@ -264,7 +264,7 @@ Highlights high-value customers and customer-level revenue contribution.
 
 ### 📈 Total Sales by Transaction Status
 
-![Total Sales by Status](images/total_sales_by_status.png)
+![Total Sales by Status](Images/Total_sales_by_status.png)
 
 Summarizes business performance based on transaction status (e.g., completed, pending, failed).
 
