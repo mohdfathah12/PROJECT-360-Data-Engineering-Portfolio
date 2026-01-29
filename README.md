@@ -246,7 +246,7 @@ This visualization shows the comparison between valid (clean) records and quaran
 
 ### 🔎 Pipeline Data Quality & Observability
 
-![Pipeline Data Quality](Images/Pipeline data quality .jpeg)
+![Pipeline Data Quality](Images/Pipeline_data_quality.png)
 
 Tracks row counts, pipeline success status, and overall data health across Bronze, Silver, and Gold layers.
 
