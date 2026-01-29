@@ -1,14 +1,14 @@
-# 🚀 DE Project 360 – End-to-End Spark Data Platform
+# Project 360 – End-to-End Spark Data Platform
 
-## 📌 Overview
+##  Overview
 
-**DE Project 360** is a production-style **Data Engineering platform** built using **Apache Spark, Docker, and Jupyter**, following the **Medallion Architecture (Bronze–Silver–Gold)** pattern. The project demonstrates how raw data is ingested, cleaned, validated, enriched, aggregated, monitored, and analyzed with **ML-based anomaly detection** and **interactive dashboards**.
+**Project 360** is a production-style **Data Engineering platform** built using **Apache Spark, Docker, and Jupyter**, following the **Medallion Architecture (Bronze–Silver–Gold)** pattern. The project demonstrates how raw data is ingested, cleaned, validated, enriched, aggregated, monitored, and analyzed with **ML-based anomaly detection** and **interactive dashboards**.
 
 This repository is designed to mirror **real-world data engineering systems**, not just scripts.
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 ```
 Raw CSV Data
@@ -26,7 +26,7 @@ Analytics / ML / Dashboards
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * **Apache Spark 3.5** (PySpark)
 * **Docker & Docker Compose**
@@ -37,7 +37,7 @@ Analytics / ML / Dashboards
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 DE PROJECT 360/
@@ -70,7 +70,7 @@ DE PROJECT 360/
 
 ---
 
-## 🥉 Bronze Layer – Raw Ingestion
+##  Bronze Layer – Raw Ingestion
 
 Reads raw CSV data and stores it as immutable Parquet files.
 
@@ -90,7 +90,7 @@ spark.stop()
 
 ---
 
-## 🥈 Silver Layer – Data Cleaning & Validation
+##  Silver Layer – Data Cleaning & Validation
 
 * Casts data types
 * Filters invalid records
@@ -120,7 +120,7 @@ spark.stop()
 
 ---
 
-## 🥇 Gold Layer – Business Aggregations
+##  Gold Layer – Business Aggregations
 
 Creates KPI-ready datasets.
 
@@ -143,7 +143,7 @@ spark.stop()
 
 ---
 
-## 🧠 Semantic Layer
+##  Semantic Layer
 
 Provides business-friendly metrics.
 
@@ -162,7 +162,7 @@ spark.stop()
 
 ---
 
-## 🔎 Observability Layer
+##  Observability Layer
 
 Tracks pipeline health and row counts.
 
@@ -184,7 +184,7 @@ spark.stop()
 
 ---
 
-## 🤖 AI / ML – Anomaly Detection
+##  AI / ML – Anomaly Detection
 
 Uses Spark MLlib to detect unusual sales behavior.
 
@@ -204,7 +204,7 @@ predictions = model.transform(data)
 
 ---
 
-## 📊 Dashboards
+##  Dashboards
 
 Interactive dashboards built using **Plotly + Jupyter**:
 
@@ -216,7 +216,7 @@ Notebook: `notebooks/dashboards/sales_kpis_plotly.ipynb`
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 docker-compose up --build
@@ -229,7 +229,7 @@ Open:
 
 ---
 
-## 🎯 What This Project Demonstrates
+##  What This Project Demonstrates
 
 * Real-world Spark pipeline design
 * Medallion Architecture
@@ -238,42 +238,42 @@ Open:
 * Analytics-ready outputs
 
 ---
-### 🧪 Data Quality – Clean vs Quarantined Records
+###  Data Quality – Clean vs Quarantined Records
 
 ![Clean vs Quarantined Records](Images/clean_vs_quarantined_raw.png)
 
 This visualization shows the comparison between valid (clean) records and quarantined records that failed business or data quality rules.
 
-### 🔎 Pipeline Data Quality & Observability
+###  Pipeline Data Quality & Observability
 
 ![Pipeline Data Quality](Images/Pipeline_data_quality.png)
 
 Tracks row counts, pipeline success status, and overall data health across Bronze, Silver, and Gold layers.
 
-### 🤖 ML-Based Sales Clustering
+###  ML-Based Sales Clustering
 
 ![Sales Clustering](Images/Sales_clustering.png)
 
 KMeans clustering applied on sales amounts to identify anomalies and unusual transaction patterns.
 
-### 👥 Total Sales by Customer
+###  Total Sales by Customer
 
 ![Total Sales by Customer](Images/Total_sales_by_customers.png)
 
 Highlights high-value customers and customer-level revenue contribution.
 
-### 📈 Total Sales by Transaction Status
+###  Total Sales by Transaction Status
 
 ![Total Sales by Status](Images/Total_sales_by_status.png)
 
 Summarizes business performance based on transaction status (e.g., completed, pending, failed).
 
 
-## 👤 Author
+##  Author
 
 **Muhammed Fathah**
 Data Engineer | Apache Spark | Docker | Big Data
 
 ---
 
-⭐ If you find this project useful, give it a star!
+ If you find this project useful, give it a star!
