@@ -252,7 +252,7 @@ Tracks row counts, pipeline success status, and overall data health across Bronz
 
 ### 🤖 ML-Based Sales Clustering
 
-![Sales Clustering](images/sales_clustering.png)
+![Sales Clustering](Images/Sales_clustering.png)
 
 KMeans clustering applied on sales amounts to identify anomalies and unusual transaction patterns.
 
