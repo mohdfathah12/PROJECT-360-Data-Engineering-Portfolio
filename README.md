@@ -240,7 +240,7 @@ Open:
 ---
 ### 🧪 Data Quality – Clean vs Quarantined Records
 
-![Clean vs Quarantined Records](images/clean_vs_quarantined.png)
+![Clean vs Quarantined Records](Images/clean_vs_quarantined_raw.png)
 
 This visualization shows the comparison between valid (clean) records and quarantined records that failed business or data quality rules.
 
